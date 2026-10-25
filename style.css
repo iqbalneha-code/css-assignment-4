@@ -26,13 +26,13 @@ header>.menu {
 .header {
     max-width: 1600px;
     min-height: 70px;
-   /* margin-left: 0;*/
-   /* margin: auto;*/
+    /* margin-left: 0;*/
+    /* margin: auto;*/
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     color: var(--text-color);
-    background-image: url(./assests/images/header.webp);
+    background-image: url(./assests/images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: auto;
+    /* overflow: auto; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,9 +70,10 @@ nav a:hover {
 }
 
 .container>h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     color: var(--text-color);
     margin-bottom: 30px;
+    /* margin: auto; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -113,25 +114,128 @@ nav a:hover {
     background-attachment: scroll;
     /* display: flex; */
 }
-h2{
+
+.h2 {
     color: var(--text-color);
-    padding: 10px;
-    /* margin: auto; */
-    margin-left: 30%;
+    padding: 8%;
     /* margin-top: 50px; */
+    margin-left: 25%;
     font-size: 4em;
-    /* flex-wrap: wrap; */
-    /* text-wrap: wrap; */
 }
+
+.parent {
+    max-width: 1600px;
+    min-height: 600px;
+    display: flex;
+    margin: auto;
+
+}
+
 .card {
     max-width: 400px;
-    height: 400px;
-    
-    /* display: inline-block; */
+    height: 500px;
+    padding: 30px;
     /* display: flex; */
     margin: auto;
-    border: 3px solid black;
+    border: 3px solid rgba(0, 0, 0, 0.589);
     /* overflow: auto; */
+    color: var(--text-color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(29, 27, 27, 0.692), rgba(0, 0, 0, 0.493));
+
+}
+.imgs{
+    margin-left: 10%;
+}
+
+
+@media (max-width:1000px) {
+    header {
+        max-width: 98.3vw;
+    }
+}
+
+@media (max-width:900px) {
+    header {
+        max-width: 98.3vw;
+    }
+}
+
+@media (max-width:850px) {
+    header {
+        max-width: 98.1vw;
+    }
+}
+
+@media (max-width:780px) {
+    header {
+        max-width: 98vw;
+    }
+}
+
+@media (max-width:730px) {
+    header {
+        max-width: 97.9vw;
+    }
+}
+
+@media (max-width:700px) {
+    header {
+        max-width: 97.8vw;
+    }
+}
+
+@media (max-width:660px) {
+    header {
+        max-width: 97.7vw;
+    }
+}
+
+@media (max-width:640px) {
+    header {
+        max-width: 97.5vw;
+    }
+}
+
+@media (max-width:580px) {
+    header {
+        max-width: 97.3vw;
+    }
+}
+
+@media (max-width:540px) {
+    header {
+        max-width: 97.1vw;
+    }
+}
+
+@media (max-width:500px) {
+    header {
+        max-width: 96.8vw;
+    }
+}
+
+@media (max-width:455px) {
+    header {
+        max-width: 96.5vw;
+    }
+}
+
+@media (max-width:420px) {
+    header {
+        max-width: 96vw;
+    }
+}
+
+@media (max-width:400px) {
+    header {
+        max-width: 95vw;
+    }
+}
+
+@media (max-width:310px) {
+    header {
+        max-width: 94.7vw;
+    }
 }
 
 @media (max-width:800px) {
