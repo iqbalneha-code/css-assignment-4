@@ -26,9 +26,10 @@ header>.menu {
 .header {
     max-width: 1600px;
     min-height: 70px;
-    margin: auto;
+   /* margin-left: 0;*/
+   /* margin: auto;*/
     display: flex;
-    justify-content: space-around;
+   justify-content: space-between;
     align-items: center;
     color: var(--text-color);
     background-image: url(./assests/images/header.webp);
