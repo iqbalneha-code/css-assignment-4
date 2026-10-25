@@ -125,6 +125,8 @@ nav a:hover {
     color: var(--text-color);
     margin-left: 25%;
     font-size: 4em;
+    /* width: 100vw; */
+    
 }
 
 .parent {
@@ -159,9 +161,9 @@ nav a:hover {
     background-image: linear-gradient(rgba(43, 41, 41, 0.568), rgba(12, 11, 11, 0.534), rgba(36, 31, 31, 0.397)), url("./assests/images/bg.jpg");
     background-attachment: scroll;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* flex-direction: column; */
     /* overflow: auto; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,9 +174,12 @@ nav a:hover {
 }
 .cards{
      max-width: 200px;
-    height: 320px;
+    height: 370px;
     padding: 30px;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     /* margin: auto; */
     border: 3px solid rgba(0, 0, 0, 0.589);
     /* overflow: auto; */
@@ -182,7 +187,26 @@ nav a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(29, 27, 27, 0.692), rgba(0, 0, 0, 0.493));
 
 }
+.heading2{
+ 
+    color: var(--text-color);
+    margin-left: 25%;
+    font-size: 4em;
+    /* width: 100vw; */
+    width: 1000px;
 
+}
+.cards>i{
+    font-size: 2em;
+    transition: all 0.2s ease-in-out;
+}
+.cards>i:hover{
+    color: gray;
+}
+.cards h3{
+    font-size: 1.5em;
+    margin-top: 20px;
+}
 @media (max-width:1000px) {
     header {
         max-width: 98.3vw;
