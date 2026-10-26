@@ -126,7 +126,7 @@ nav a:hover {
     margin-left: 25%;
     font-size: 4em;
     /* width: 100vw; */
-    
+    text-decoration: underline;
 }
 
 .parent {
@@ -137,13 +137,18 @@ nav a:hover {
     flex-wrap: wrap;
 
 }
-
+.parent>.card img{
+    max-width: 250px;
+    height: 150px;
+}
 .card {
     max-width: 300px;
-    max-height: 100vh;
+    min-height: 500px;
     padding: 30px;
-    /* display: flex; */
-    margin: auto;
+    margin-bottom: 50px;
+    /*margin-left: 150px;*/
+    /*display: flex; */
+   /* margin: auto;*/
     border: 3px solid rgba(0, 0, 0, 0.589);
     /* overflow: auto; */
     color: var(--text-color);
@@ -151,10 +156,10 @@ nav a:hover {
 
 }
 
-.imgs {
+/*.imgs {
     margin-left: 10%;
 }
-
+*/
 .services {
     max-width: 100vw;
     height: auto;
@@ -174,7 +179,7 @@ nav a:hover {
 }
 .cards{
      max-width: 200px;
-    height: 370px;
+    min-height: 370px;
     padding: 30px;
     margin-top: 50px;
     display: flex;
@@ -192,7 +197,7 @@ nav a:hover {
  
     color: var(--text-color);
     margin-left: 25%;
-    font-size: 4em;
+    font-size: 3em;
     /* width: 100vw; */
     width: 1000px;
 
@@ -267,14 +272,18 @@ nav a:hover {
     header {
         max-width: 97.1vw;
     }
-}
+}*/
 
 @media (max-width:500px) {
     header {
         max-width: 96.8vw;
     }
+    .parent>.card img{
+        max-width: 150px;
+        
+    }
 }
-
+/*
 @media (max-width:455px) {
     header {
         max-width: 96.5vw;
