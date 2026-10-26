@@ -13,7 +13,7 @@
 }
 
 header {
-    width: 98.7vw;
+    width: 100vw;
     min-height: 70px;
     /* background-color: aquamarine; */
 }
@@ -109,7 +109,7 @@ nav a:hover {
 
 .box {
     max-width: 100vw;
-    height: 1000px;
+    height: auto;
     /* margin-top: 20px; */
     padding: 50px;
     background-color: #642828;
@@ -118,7 +118,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
-    /* display: flex; */
+   /*  display: flex; */
 }
 
 .h2 {
@@ -139,8 +139,8 @@ nav a:hover {
 }
 
 .card {
-    max-width: 400px;
-    height: 500px;
+    max-width: 300px;
+    max-height: 100vh;
     padding: 30px;
     /* display: flex; */
     margin: auto;
@@ -157,7 +157,7 @@ nav a:hover {
 
 .services {
     max-width: 100vw;
-    height: 100vh;
+    height: auto;
     background-image: linear-gradient(rgba(43, 41, 41, 0.568), rgba(12, 11, 11, 0.534), rgba(36, 31, 31, 0.397)), url("./assests/images/bg.jpg");
     background-attachment: scroll;
     display: flex;
@@ -176,6 +176,7 @@ nav a:hover {
      max-width: 200px;
     height: 370px;
     padding: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -207,6 +208,7 @@ nav a:hover {
     font-size: 1.5em;
     margin-top: 20px;
 }
+/*
 @media (max-width:1000px) {
     header {
         max-width: 98.3vw;
@@ -295,7 +297,7 @@ nav a:hover {
     header {
         max-width: 94.7vw;
     }
-}
+}*/
 
 @media (max-width:800px) {
 
@@ -321,4 +323,5 @@ nav a:hover {
     header:hover .header {
         display: flex;
     }
+
 }
