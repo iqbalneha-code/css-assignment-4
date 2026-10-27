@@ -13,7 +13,7 @@
 }
 
 header {
-    width: 100vw;
+    width: 98.7vw;
     min-height: 70px;
     /* background-color: aquamarine; */
 }
@@ -73,7 +73,7 @@ nav a:hover {
 
 }
 
-.container>h1 {
+.container>h1 , .child>h3{
     font-size: 5vmax;
     color: var(--text-color);
     margin-bottom: 30px;
@@ -85,9 +85,11 @@ nav a:hover {
 }
 
 .container P {
-    font-size: 3vmax;
+    font-size: 2vmax;
     color: var(--text-color);
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    width: 80%;
+    margin: 30px auto;
 }
 
 .container button {
@@ -118,12 +120,13 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
-   /*  display: flex; */
+    /*  display: flex; */
 }
 
 .h2 {
     color: var(--text-color);
-    margin-left: 25%;
+    margin-left: 30%;
+    margin-bottom: 50px;
     font-size: 4em;
     /* width: 100vw; */
     text-decoration: underline;
@@ -133,14 +136,17 @@ nav a:hover {
     max-width: 1600px;
     min-height: 600px;
     display: flex;
-    margin: auto;
+    /* margin-left: 200px; */
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
-.parent>.card img{
+
+.parent>.card img {
     max-width: 250px;
     height: 150px;
 }
+
 .card {
     max-width: 300px;
     min-height: 500px;
@@ -148,7 +154,7 @@ nav a:hover {
     margin-bottom: 50px;
     /*margin-left: 150px;*/
     /*display: flex; */
-   /* margin: auto;*/
+    /* margin: auto;*/
     border: 3px solid rgba(0, 0, 0, 0.589);
     /* overflow: auto; */
     color: var(--text-color);
@@ -177,8 +183,9 @@ nav a:hover {
 
 
 }
-.cards{
-     max-width: 200px;
+
+.cards {
+    max-width: 200px;
     min-height: 370px;
     padding: 30px;
     margin-top: 50px;
@@ -193,8 +200,9 @@ nav a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(29, 27, 27, 0.692), rgba(0, 0, 0, 0.493));
 
 }
-.heading2{
- 
+
+.heading2 {
+
     color: var(--text-color);
     margin-left: 25%;
     font-size: 3em;
@@ -202,18 +210,44 @@ nav a:hover {
     width: 1000px;
 
 }
-.cards>i{
+
+.cards>i {
     font-size: 2em;
     transition: all 0.2s ease-in-out;
 }
-.cards>i:hover{
+
+.cards>i:hover {
     color: gray;
 }
-.cards h3{
+
+.cards h3 {
     font-size: 1.5em;
     margin-top: 20px;
 }
-/*
+/* gallery setion start */
+.gallery{
+    background-image: linear-gradient(rgba(43, 41, 41, 0.781), rgba(12, 11, 11, 0.534), rgba(36, 31, 31, 0.568)),  url(./assests/images/build.jpg);
+}
+
+.line {
+    width: 400px;
+    height: 0.5px;
+    background-color: rgb(115, 116, 115);
+    margin: 30px auto;
+    /* display: none; */
+}
+.number{
+    display: flex;
+   
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/* gallery section end */
 @media (max-width:1000px) {
     header {
         max-width: 98.3vw;
@@ -272,18 +306,19 @@ nav a:hover {
     header {
         max-width: 97.1vw;
     }
-}*/
+}
 
 @media (max-width:500px) {
     header {
         max-width: 96.8vw;
     }
-    .parent>.card img{
+
+    /* .parent>.card img{
         max-width: 150px;
         
-    }
+    } */
 }
-/*
+
 @media (max-width:455px) {
     header {
         max-width: 96.5vw;
@@ -306,7 +341,7 @@ nav a:hover {
     header {
         max-width: 94.7vw;
     }
-}*/
+}
 
 @media (max-width:800px) {
 
